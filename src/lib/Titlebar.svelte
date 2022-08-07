@@ -3,7 +3,7 @@
 </script>
 
 <div class="topnav">
-    <img src="/computer1.png" alt="site logo">
+    <img src="/whitecomp.png" alt="site logo">
     <ul>
         <li><a href="/">Home</a></li>
         <li><a href="https://www.linkedin.com/in/neel-doshi-5356a3205/">Linkedin</a></li>
@@ -14,18 +14,16 @@
 
 <style>
 .topnav {
-  background-color: #97ceba;
-  float: left;
   overflow: hidden;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
     position: fixed;
     top: 0;
-    left: 0;
+    left: 1;
     right: 0;
     height: 80px;
     display: flex;
     align-items: center;
-    box-shadow: 0 0 25px 0 black;
+    box-shadow: 0 0 25px 0 rgb(0, 0, 0);
 }
 
 .topnav * {
@@ -45,8 +43,10 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
+  background-color: rgb(183, 216, 196);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 /* Add a color to the active/current link */
@@ -62,13 +62,13 @@
 }
 
 .topnav li {
-    margin: 20px;
+    margin: 30px;
 }
 
 .topnav li a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1rem;
     font-family:'Lucida Sans';
 }
 </style>
