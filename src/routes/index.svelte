@@ -5,14 +5,12 @@
 <Titlebar />
 
 <body>
-<div class = "index">
     <div class = "typewriterH">
-        <h1>Hey, I'm Neel</h1>
+       Hey, I'm Neel
     </div>  
     <div class = "typewriterP">
-        <p>University of California, Riverside</p>
+        University of California, Riverside
     </div>
-</div>
 </body>
 
 <style>
@@ -21,44 +19,54 @@
         height: 935px;
         background:linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(/bg.jpg);
     }
-    .index {
+
+    .typewriterH {
         color: white;
         justify-content: center;
         text-align: center;
         position: absolute;
         place-items: center;
-        top: 45%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
-    }
-    
-    .typewriterH {
-        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+        animation: typing1 1s steps(22), blink .5s step-end infinite alternate;
         white-space: nowrap;
         overflow: hidden;
         border-right: 3px solid;
         font-family: monospace;
-        font-size: 2em;
-        border-style: solid;
-        border-color: red;
+        font-size: 4em;
+        padding: 0px;
     }
 
     .typewriterP{
-        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+        color: white;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+        place-items: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: typing2 1s steps(22), blink .5s step-end infinite alternate;
         white-space: nowrap;
         overflow: hidden;
         border-right: 3px solid;
         font-family: monospace;
         font-size: 2em;
-        border-style: solid;
-        border-color: red;
+        padding: 0px;
+        display: inline-block;
     }
 
-    @keyframes typing {
+    @keyframes typing1 {
         from { width: 0 }
-        to { width: 100% }
+        to { width: 20% }
     }
-            
+           
+    @keyframes typing2 {
+        from { width: 0 }
+        to { width: 27% }
+    }
+
     @keyframes blink {
         50% {
             border-color: transparent
