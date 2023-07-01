@@ -4,9 +4,9 @@ import adapter from '@sveltejs/adapter-auto';
 const config = {
 	kit: {
 		adapter: adapter(),
-		paths: {
+		/*paths: {
 			base: process.env.NODE_ENV === 'production' ? '/website' : '',
-		}
+		}*/
 	}
 };
 

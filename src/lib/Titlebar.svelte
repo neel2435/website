@@ -1,15 +1,15 @@
 <script>
     let title = "Neel Doshi"
-    import {base} from '$app/paths';
+    /*import {base} from '$app/paths';*/
 </script>
 
 <div class="topnav">
     <img src="/whitecomp.png" alt="site logo">
     <ul>
-        <li><a href="{base}/">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="https://www.linkedin.com/in/neel-doshi-5356a3205/">Linkedin</a></li>
         <li><a href="https://github.com/neel2435">Github</a></li>
-        <li><a href="{base}/about">About</a></li>
+        <li><a href="/about">About</a></li>
     </ul>
 </div>
 
