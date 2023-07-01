@@ -43,10 +43,7 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: rgb(183, 216, 196);
-  color: rgb(0, 0, 0);
-  padding: 20px;
-  border-radius: 10px;
+  color: rgb(99, 236, 154);
 }
 
 /* Add a color to the active/current link */
@@ -67,6 +64,7 @@
 
 .topnav li a {
     color: rgb(255, 255, 255);
+    transition: color 0.5s ease;
     text-decoration: none;
     font-size: 1rem;
     font-family:'Lucida Sans';

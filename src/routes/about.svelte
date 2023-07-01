@@ -21,8 +21,11 @@ margin:0px;">Welcome to my website! I'm an aspiring software engineer set to gra
     }
 
     .about {
-        background:linear-gradient(rgba(110, 211, 144, 1), rgba(182, 218, 194, 1 ));
         display: block;
         margin: 0px;
     }
+
+    /* {
+        background:linear-gradient(rgba(110, 211, 144, 1), rgba(182, 218, 194, 1 ));
+    }*/
 </style>
