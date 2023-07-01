@@ -5,27 +5,72 @@
 <Titlebar />
 <body>
 <div class="about">
-<h1>About me</h1>
+
+<h1 style= "font-size: 50px">About Me</h1>
+
+<p style="font-size: 24px; padding: 15px; margin: 0px;">
+    Welcome to my website! I graduated from the 
+    <span style="color: blue;">University</span>
+    <span style="color: yellow;">of</span>
+    <span style="color: blue;">California</span>,
+    <span style="color: yellow;">Riverside</span> 
+    in June 2023 with a degree in Computer Science.<br><br>
+    I'm looking for careers in the following spaces:<br><br><br>
+</p>
+  
 <p style="
-font-size:16px;
+font-size:35px;
 padding:15px;
-margin:0px;">Welcome to my website! I'm an aspiring software engineer set to graduate with a degree in computer science in the spring of 2023.</p>
+margin:0px;">
+<span style="color: black;">Data</span> 
+Analysis/Engineering, 
+<span style="color: black;">Software</span> 
+Engineering/Development, 
+<span style="color: black;">Cybersecurity</span>,
+and 
+<span style="color: black;">Database</span> 
+Administration/Engineering
+</p>
+
 </div>
 </body>
 
 <style>
     body {
-        margin: 0;
-        padding: 0;
-        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        top: 200px;
+        width: 1400px;
+        height: 580px;
+        overflow: auto;
+        background:linear-gradient(rgb(26, 29, 27), rgba(110, 211, 144, 1));
+        opacity: 0;
+        animation: fade-in 1.5s ease forwards;
+        border-radius: 20px;
+        border: 5px solid white;
+        box-sizing: border-box;
+    }
+
+    @keyframes fade-in {
+        from {
+            opacity: 0; 
+            transform: translateY(30%);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
 
     .about {
         display: block;
-        margin: 0px;
+        padding-top: 35px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin: 0 auto; 
+        color: white;
+        text-align: center; 
+        font-family: monospace;
     }
 
-    /* {
-        background:linear-gradient(rgba(110, 211, 144, 1), rgba(182, 218, 194, 1 ));
-    }*/
 </style>

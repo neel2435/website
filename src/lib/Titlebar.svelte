@@ -30,27 +30,9 @@
     display: inline;
 }
 
-/* Style the links inside the navigation bar */
-/* .topnav a {
-  float: left;
-  color: #000000;
-  text-align: center;
-  padding: 21px;
-  text-decoration: none;
-  font-size: 17px;
-  font-family:'Lucida Sans';
-} */
-
-/* Change the color of links on hover */
 .topnav a:hover {
   color: rgb(99, 236, 154);
 }
-
-/* Add a color to the active/current link */
-/* .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-} */
 
 .topnav img {
     height: 25px;
